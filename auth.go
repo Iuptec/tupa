@@ -56,19 +56,19 @@ type GoogleAuthResponse struct {
 	Token    *oauth2.Token
 }
 
-type LinkedinAuthResponse struct {
-	UserInfo LinkedinUserInfo
-	Token    *oauth2.Token
-}
+// type LinkedinAuthResponse struct {
+// 	UserInfo LinkedinUserInfo
+// 	Token    *oauth2.Token
+// }
 
-type LinkedinUserInfo struct {
-	Name          string             `json:"name"`
-	Email         string             `json:"email"`
-	EmailVerified bool               `json:"email_verified"`
-	FamilyName    string             `json:"family_name"`
-	GivenName     string             `json:"given_name"`
-	Locale        LinkedinUserLocale `json:"locale"`
-}
+// type LinkedinUserInfo struct {
+// 	Name          string             `json:"name"`
+// 	Email         string             `json:"email"`
+// 	EmailVerified bool               `json:"email_verified"`
+// 	FamilyName    string             `json:"family_name"`
+// 	GivenName     string             `json:"given_name"`
+// 	Locale        LinkedinUserLocale `json:"locale"`
+// }
 
 type LinkedinUserLocale struct {
 	Country  string `json:"country"`
