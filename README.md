@@ -1,3 +1,5 @@
+#this repo was moved see docs https://docs.tupa.dev/
+
 # 🇧🇷 Tupã ⚡️
 
 ![alt text](https://github.com/Iuptec/tupa/blob/main/c51f77577765384a17f968e496d804cf.jpg?raw=true)
